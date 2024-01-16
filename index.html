@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link to external CSS file -->
+    <link id="stylesheetLink" rel="stylesheet" href="CSS/en-style.css" />
+    <link id="stylesheetLink" rel="stylesheet" href="CSS/index.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="JS/main.js"></script>
+    <script src="JS/charts.js"></script>
+    <script src="JS/csv-html.js"></script>
+    <title>Incident Report</title>
+    <style>.tg {
+      border-collapse: collapse;
+      border-spacing: 0;
+      margin: 0 auto; /* Add this line to center the table */
+    }
+  
+    .tg td {
+      border-color: black;
+      border-style: solid;
+      border-width: 1px;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      overflow: hidden;
+      padding: 10px 10px;
+      word-break: normal;
+    }
+  
+    .tg th {
+      border-color: black;
+      border-style: solid;
+      border-width: 1px;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      font-weight: normal;
+      overflow: hidden;
+      padding: 10px 10px;
+      word-break: normal;
+    }
+  
+    .tg .tg-c3ow {
+      border-color: inherit;
+      text-align: center;
+      vertical-align: top;
+    }</style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="https://ae.searchinform.com/">
+          <img
+            src="https://ae.searchinform.com/themes/ae/assets/shared/pages/service-new/header/main-logo.svg"
+            alt="SearchInform"
+            class="siLogo"
+          />
+        </a>
+        <div class="lang">
+          <span id="arLang" onclick="changeLanguage('En')">En</span>
+          <ul id="langDropdown">
+            <li class="selectlang" onclick="changeLanguage('En')">En</li>
+            <li class="selectlang" onclick="changeLanguage('Ar')">Ar</li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <a href="index.html" id="nav0"></a>
+      <a href="users.html" id="nav1"></a>
+      <a href="incident.html" id="nav2"></a>
+      <a href="system-report.html" id="nav3"></a>
+  </nav>  <br><br>
+    <H1 style="text-align: center;">Incident Report from 01/01/2024 to 16/01/2024</H1><br>
+    <table class="tg">
+      <thead>
+        <tr>
+          <th class="tg-0lax" style="border: 0;">
+            <canvas id="Process" width="250" height="250"></canvas>
+          </th>
+          <th class="tg-0lax" style="border: 0;">
+            <canvas id="Site" width="250" height="250"></canvas>
+          </th>
+          <th class="tg-0lax" style="border: 0;">
+            <canvas id="Activity" width="250" height="250"></canvas>
+
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="tg-c3ow" colspan="3" style="border: 0;">
+            <div id="table-container" style="margin-right: 20px;"></div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <footer>
+      <div class="container">
+        <div class="analyst-info">
+          <p style="  color: #000000;">Email: y.zaout@searchinform.com</p>
+          <p style="  color: #000000;">Number: +971 ** *** ****</p>
+        </div>
+        <div class="contact-info">
+          <a href="mailto:y.zaout@searchinform.com"
+            ><img
+              src="https://icons.iconarchive.com/icons/custom-icon-design/mono-general-2/256/mail-icon.png"
+              alt="Email Icon"
+          /></a>
+          <img
+            src="https://icons.iconarchive.com/icons/fa-team/fontawesome-brands/256/FontAwesome-Brands-Whatsapp-icon.png"
+            alt="WhatsApp Icon"
+          />
+        </div>
+      </div>
+      <h3>Yousef S A Zaqout</h3>
+  </body>
+</html>

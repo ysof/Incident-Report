@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  header {
+    background-color: #ff8c00;
+    /* Orange color */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  footer {
+    background-color: #2d70ec;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .contact-info img {
+    width: 25px;
+    margin-left: 10px;
+  }
+  
+  .siLogo {
+    width: 100%;
+    /* Make the logo responsive */
+    max-width: 265px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .lang {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  #arLang {
+    padding: 10px;
+    border: 1px solid #000000;
+    /* White border */
+    border-radius: 5px;
+    background-color: transparent;
+    /* Transparent background */
+    color: #000000;
+  }
+  
+  #langDropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .lang:hover #langDropdown {
+    display: block;
+  }
+  
+  .selectlang {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .selectlang:hover {
+    background-color: #eee;
+  }
+  nav {
+    background-color: #2d70ec;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav a:not(:last-child) {
+    margin-left: 100px; /* Add space between each link except the last one */
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  @media only screen and (min-width: 600px) {
+    /* Adjust the max-width based on your design requirements */
+    .container {
+      max-width: 100%;
+    }
+  }
